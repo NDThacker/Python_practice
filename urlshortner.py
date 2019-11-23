@@ -1,0 +1,11 @@
+t=int(input())
+a="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+while(t):
+	i=int(input())
+	s=""
+	while(i):
+		j=i%62
+		i=i//62
+		s=s+str(a[j])
+	print(s[::-1])
+	t-=1

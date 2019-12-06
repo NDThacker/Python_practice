@@ -1,4 +1,11 @@
-l1 = ['q', 'w', 'e']
-l2 = ['e', 'q', 'w']
+def changeList(l1):
+	l1[2] = 6
+	l1.append(8)
 
-if (l1 == l2): print("true")
+
+l1 = [1, 2, 4, 3]
+
+changeList(l1)
+
+print(*l1)
+
